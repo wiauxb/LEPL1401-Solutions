@@ -1,4 +1,6 @@
-# Median
+# Session 1
+
+## Median
 
 > a = ... #variable à évaluer  
 > b = ... #variable à évaluer  
@@ -6,18 +8,24 @@
 > median = ... #enregistrez dans cette variable la médiane des trois variables  
 
 ### Implémentation
-```python
+```{python}
 if (a>=b and a<=c) or (a>=c and a<=b):
     median = a
 elif (b>=a and b<=c) or (b>=c and b<=a):
     median = b
 else:
     median = c
+    print(10)
+```
+
+```{python}
+import matplotlib.pyplot as plt
+plt.plot([0, 2, 1, 4])
+plt.show()
 ```
 
 
-
-# QBF
+## QBF
 > s0 = ...    #Entier de départ
 
 ### Implémentation
@@ -33,7 +41,7 @@ while s0 != 1:
 
 
 
-# Q* Somme
+## Q* Somme
 
 > x = ... #le nombre  
 > result = ... #enregistre dans la variable la somme des c premiers entiers positifs
@@ -48,7 +56,7 @@ return result
 
 
 
-# Q* Polynomial
+## Q* Polynomial
 > y = ...  # valeur du polynôme en abscisse `x`
 ### Implémentation
 ```python
@@ -56,8 +64,7 @@ y = a*x**6+b*x**2+c
 ```
 
 
-
-# Q* Factorial
+## Q* Factorial
 > x = ... #le nombre  
 > result = ... #enregistre dans cette variable la factorielle de x
 ### Implémentation
@@ -67,7 +74,7 @@ for i in range(x,0,-1):
     result *= i
 ```
 
-# Q* Bathtub with a hole 
+## Q* Bathtub with a hole 
 ### Implémentation
 ```python
 import math
