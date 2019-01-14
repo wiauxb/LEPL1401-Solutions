@@ -8,22 +8,28 @@
 > median = ... #enregistrez dans cette variable la médiane des trois variables  
 
 ### Implémentation
-```{python,echo=FALSE}
+
+
+### Solution {-}
+```{python,prompt=True}
 if (a>=b and a<=c) or (a>=c and a<=b):
     median = a
 elif (b>=a and b<=c) or (b>=c and b<=a):
     median = b
 else:
     median = c
-    print(10)
-```
 
+
+```
+> --- wiauxb
+
+### Solution {-}
 ```{python}
-import matplotlib.pyplot as plt
-plt.plot([0, 2, 1, 4])
-plt.show()
-```
+print("test902883")
+print("hih")
 
+```
+> --- rverschuren
 
 ## QBF
 > s0 = ...    #Entier de départ
