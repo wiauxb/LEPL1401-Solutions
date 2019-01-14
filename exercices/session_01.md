@@ -8,7 +8,7 @@
 > median = ... #enregistrez dans cette variable la médiane des trois variables  
 
 ### Implémentation
-```{python}
+```{python,echo=FALSE}
 if (a>=b and a<=c) or (a>=c and a<=b):
     median = a
 elif (b>=a and b<=c) or (b>=c and b<=a):
