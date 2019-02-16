@@ -9,27 +9,14 @@
 
 ### Implémentation
 
-
-### Solution {-}
-```{python,prompt=True}
+```python
 if (a>=b and a<=c) or (a>=c and a<=b):
     median = a
 elif (b>=a and b<=c) or (b>=c and b<=a):
     median = b
 else:
     median = c
-
-
 ```
-> --- wiauxb
-
-### Solution {-}
-```{python}
-print("test902883")
-print("hih")
-
-```
-> --- rverschuren
 
 ## QBF
 > s0 = ...    #Entier de départ
@@ -45,8 +32,6 @@ while s0 != 1:
     print(s0)
 ```
 
-
-
 ## Q* Somme
 
 > x = ... #le nombre  
@@ -59,7 +44,6 @@ for i in range(x+1):
     result += i
 return result
 ```
-
 
 
 ## Q* Polynomial
